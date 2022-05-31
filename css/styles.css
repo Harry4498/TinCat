@@ -1,0 +1,177 @@
+#title {
+  background-color: #ff4c68;
+  color: #fff;
+  text-align: center;
+  text-align: left;
+}
+
+body {
+  font-family: "Montserrat";
+}
+
+h1 h2 h3 h4 h5 h6 {
+  font-family: "Montserrat-Bold", sans-serif;
+}
+
+h1 {
+  font-size: 3.5rem;
+  line-height: 1.5;
+  text-shadow: 1px;
+  font-weight: bolder;
+}
+
+h2 {
+  font-size: 2.5rem;
+  line-height: 1.5;
+}
+
+h3 {
+  ;
+  font-size: 1.5rem;
+}
+
+p {
+  color: grey;
+}
+
+.container-fluid {
+  padding: 3% 15%;
+}
+
+/* Navigationbar */
+.navbar-brand {
+  font-family: "Ubuntu";
+  font-size: 2.3rem;
+  font-weight: bold;
+}
+
+.navbar {
+  padding : 0 0 5.2rem;
+  /* o to top o to left & right and 4.5rem for bottom:  */
+}
+
+.nav-item {
+  padding: 0 23px;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+  font font-family: "Montserrat-light";
+}
+
+/* Download Button */
+.download-button {
+  margin: 5% 3% 5% 3%;
+}
+
+/* tiltle-image  */
+.iphone6 {
+  width: 60%;
+  transform: rotate(25deg);
+  /* max-width: 15%; */
+  /* position: absolute; */
+  /* right: 28%; */
+  /* z index only activated when we set the  position:  */
+}
+
+/* features section */
+#features {
+  padding: 7% 15%;
+  background-color: #fff;
+  /* position: relative;
+z-index: 1; */
+}
+
+.features-box {
+  text-align: center;
+  padding: 5%;
+}
+
+.icon {
+  color: #ef8172;
+  margin-bottom: 1rem;
+}
+
+.icon:hover {
+  color: #ff4c68;
+}
+
+/* Testimonials section */
+#testimonials {
+  padding: 7% 15%;
+  text-align: center;
+  background-color: #ff4c68;
+  color: #fff;
+}
+
+.testimonial-image {
+  width: 20%;
+  border-radius: 100%;
+  margin: 24px;
+}
+
+#press {
+  background-color: #ff4c68;
+  text-align: center;
+  padding-bottom: 4%;
+}
+
+.press-logo {
+  width: 15%;
+  margin: 20px 20px 20px;
+}
+
+/* Pricing section */
+#pricing {
+  padding: 100px;
+  text-align: center;
+}
+
+.pricing-column {
+  padding: 3% 2%;
+}
+
+#cta {
+  background-color: #ff4c68;
+  color: #fff;
+  /* this is the text color:  */
+  text-align: center;
+  line-height: 1.5rem;
+  padding: 7% 15%;
+}
+
+.cta-header {
+  font-family: "Montserrat-Black";
+  font-size: 3.5rem;
+  font-weight: bold;
+  line-height: 1.5;
+}
+
+#footer {
+  padding: 7% 15%;
+  text-align: center;
+}
+
+.social-icon {
+  padding: 10px 15px;
+}
+
+.download-button {
+  margin: 5% 5% 5% 5%;
+}
+
+@media (max-width:1028px) {
+  .iphone6 {
+    position: static;
+    transform: rotate(0);
+  }
+}
+
+
+
+/* if we need to  target a particular class in the id we can use this is Known as
+Hierarchical selector
+it comes in the Combining selector topic 
+#name.class name {
+
+} */
